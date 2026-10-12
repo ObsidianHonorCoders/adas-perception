@@ -1,0 +1,12 @@
+# Update class names and paths to match your labeled dataset.
+path: data/processed
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: car
+  1: truck
+  2: bus
+  3: pedestrian
+  4: cyclist

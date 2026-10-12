@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset contents and downloaded/trained model artifacts
+data/raw/*
+data/interim/*
+data/processed/*
+models/pretrained/*
+models/checkpoints/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!models/pretrained/.gitkeep
+!models/checkpoints/.gitkeep
+runs/
+
+# Local analysis output
+reports/figures/*
+reports/metrics/*
+!reports/figures/.gitkeep
+!reports/metrics/.gitkeep
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

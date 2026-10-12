@@ -1,0 +1,10 @@
+model: models/pretrained/yolo11n.pt
+data: configs/dataset.yaml
+epochs: 100
+imgsz: 640
+batch: 16
+patience: 20
+workers: 4
+seed: 0
+project: runs/train
+name: yolo11n_v0
